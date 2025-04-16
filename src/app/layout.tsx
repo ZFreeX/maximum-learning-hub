@@ -1,10 +1,12 @@
+
 import type { Metadata } from "next";
 import './assets/css/materialdesignicons.min.css'
 import './assets/scss/tailwind.scss'
 import "./globals.css"
+
 export const metadata: Metadata = {
-  title: "Edupath - Next Js Online Courses & Education Template",
-  description: "Edupath - Next Js Online Courses & Education Template",
+  title: "МАКСИМУМ - Спортивно-образовательный центр",
+  description: "Спортивно-образовательный центр МАКСИМУМ - курсы и программы для всестороннего развития",
 };
 
 export default function RootLayout({
@@ -13,10 +15,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="light scroll-smooth" dir="ltr">
-      <body
-        className={` dark:bg-slate-900`}
-      >
+    <html lang="ru" className="light scroll-smooth" dir="ltr">
+      <body className="dark:bg-slate-900">
         {children}
       </body>
     </html>
