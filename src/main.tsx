@@ -1,5 +1,12 @@
 import { createRoot } from 'react-dom/client'
-import App from './App.tsx'
-import './index.css'
+import { useEffect } from 'react'
 
-createRoot(document.getElementById("root")!).render(<App />);
+const Redirect = () => {
+  useEffect(() => {
+    window.location.href = '/'
+  }, [])
+  
+  return <div>Redirecting to Next.js application...</div>
+}
+
+createRoot(document.getElementById("root")!).render(<Redirect />);
