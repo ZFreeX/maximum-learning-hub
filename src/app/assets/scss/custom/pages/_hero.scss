@@ -1,3 +1,51 @@
+
 /*********************************/
 /*             Home              */
 /*===============================*/
+
+.swiper-slider-hero {
+    position: relative;
+    width: 100%;
+    height: auto;
+
+    .swiper-slide {
+        height: 100vh;
+        
+        &:before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.65);
+            z-index: 1;
+        }
+    }
+
+    .slide-inner {
+        position: absolute;
+        inset: 0;
+        z-index: 1;
+        background-size: cover;
+        background-position: center center;
+    }
+
+    .container {
+        position: relative;
+        z-index: 2;
+    }
+}
+
+@media (max-width: 768px) {
+    .swiper-slider-hero {
+        .swiper-slide {
+            height: 80vh;
+        }
+    }
+}
+
+@media (max-width: 425px) {
+    .swiper-slider-hero {
+        .swiper-slide {
+            height: 70vh;
+        }
+    }
+}

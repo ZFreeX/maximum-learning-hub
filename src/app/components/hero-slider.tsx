@@ -1,3 +1,4 @@
+
 'use client'
 import React from 'react'
 import Link from 'next/link';
@@ -16,11 +17,11 @@ export default function HeroSlider() {
                         <div className="container relative md:mt-16">
                             <div className="grid grid-cols-1">
                                 <div className="text-center">
-                                    <h1 className="font-bold text-white lg:leading-normal leading-normal text-4xl lg:text-5xl mb-5">Unlock Your Potential <br/> with Online Learning</h1>
-                                    <p className="text-white/70 text-lg max-w-xl mx-auto">Launch your campaign and benefit from our expertise on designing and managing conversion centered Tailwind CSS v3.x html page.</p>
+                                    <h1 className="font-bold text-white lg:leading-normal leading-normal text-4xl lg:text-5xl mb-5">Спортивно-образовательный центр <br/> «МАКСИМУМ»</h1>
+                                    <p className="text-white/70 text-lg max-w-xl mx-auto">Раскройте свой потенциал с нашими образовательными и спортивными программами для детей и взрослых.</p>
                                     
                                     <div className="mt-6">
-                                        <Link href="" className="h-12 px-6 tracking-wide inline-flex items-center justify-center font-medium rounded-md bg-violet-600 text-white">Contact Us <i className="mdi mdi-arrow-right align-middle ms-1"></i></Link>
+                                        <Link href="/contactus" className="h-12 px-6 tracking-wide inline-flex items-center justify-center font-medium rounded-md bg-violet-600 text-white">Связаться с нами <i className="mdi mdi-arrow-right align-middle ms-1"></i></Link>
                                     </div>
                                 </div>
                             </div>
@@ -34,11 +35,11 @@ export default function HeroSlider() {
                         <div className="container relative md:mt-16">
                             <div className="grid grid-cols-1">
                                 <div className="text-center">
-                                    <h1 className="font-bold text-white lg:leading-normal leading-normal text-4xl lg:text-5xl mb-5">Find the Perfect Course <br/> for Your Carrier Goals</h1>
-                                    <p className="text-white/70 text-lg max-w-xl mx-auto">Launch your campaign and benefit from our expertise on designing and managing conversion centered Tailwind CSS v3.x html page.</p>
+                                    <h1 className="font-bold text-white lg:leading-normal leading-normal text-4xl lg:text-5xl mb-5">Найдите идеальную программу <br/> для своих целей</h1>
+                                    <p className="text-white/70 text-lg max-w-xl mx-auto">Более 20 направлений для всестороннего развития в спорте, образовании и творчестве.</p>
                                     
                                     <div className="mt-6">
-                                        <Link href="" className="h-12 px-6 tracking-wide inline-flex items-center justify-center font-medium rounded-md bg-violet-600 text-white">Get Started <i className="mdi mdi-arrow-right align-middle ms-1"></i></Link>
+                                        <Link href="/list" className="h-12 px-6 tracking-wide inline-flex items-center justify-center font-medium rounded-md bg-violet-600 text-white">Начать обучение <i className="mdi mdi-arrow-right align-middle ms-1"></i></Link>
                                     </div>
                                 </div>
                             </div>
@@ -52,11 +53,11 @@ export default function HeroSlider() {
                         <div className="container relative md:mt-16">
                             <div className="grid grid-cols-1">
                                 <div className="text-center">
-                                    <h1 className="font-bold text-white lg:leading-normal leading-normal text-4xl lg:text-5xl mb-5">Welcome to Your Online <br/> Learning Journey</h1>
-                                    <p className="text-white/70 text-lg max-w-xl mx-auto">Launch your campaign and benefit from our expertise on designing and managing conversion centered Tailwind CSS v3.x html page.</p>
+                                    <h1 className="font-bold text-white lg:leading-normal leading-normal text-4xl lg:text-5xl mb-5">Добро пожаловать в <br/> центр «МАКСИМУМ»</h1>
+                                    <p className="text-white/70 text-lg max-w-xl mx-auto">Ежедневно с 9.00 до 21.00. Обед с 13.00 до 14.00. Приходите на бесплатное пробное занятие!</p>
                                     
                                     <div className="mt-6">
-                                        <Link href="" className="h-12 px-6 tracking-wide inline-flex items-center justify-center font-medium rounded-md bg-violet-600 text-white">Get Started <i className="mdi mdi-arrow-right align-middle ms-1"></i></Link>
+                                        <Link href="/price" className="h-12 px-6 tracking-wide inline-flex items-center justify-center font-medium rounded-md bg-violet-600 text-white">Прейскурант <i className="mdi mdi-arrow-right align-middle ms-1"></i></Link>
                                     </div>
                                 </div>
                             </div>
